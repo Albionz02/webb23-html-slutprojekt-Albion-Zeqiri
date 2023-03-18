@@ -71,3 +71,20 @@
     background-color: #3c00ff;
     text-align: center;
 }
+
+@media screen and (max-width: 420px) {
+
+
+    .hero_title{
+        font-size: 3%;
+        color:white;
+    }
+    .hero-text {
+        
+        color:white;
+    }
+
+
+}
+
+
