@@ -1,3 +1,32 @@
+:root {
+    --borderthickness: 20px;
+    --themecolour: #00ff4c;
+}
+
+
+
+
+
+
+
+
+
+h2 { border-bottom: var(--borderthickness) solid var(--themecolour); }
+
+.container {
+  color: #1e00ff;
+  background-color: #000000;
+  padding: 15px;
+}
+
+button {
+  background-color: #ffffff;
+  color: var(--themecolour); 
+  border: 1px solid var(--themecolour);
+  padding: 5px;
+}
+
+
 
 .navbarScroll.navbarDark {
     background-color: rgb(25, 0, 255);
@@ -23,7 +52,7 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: rgb(255, 0, 0);
+    color: var(--themecolour);
 }
 
 
@@ -33,6 +62,23 @@
 
 .imageAboutPage {
     width: 100%;
+}
+
+body { background-color: var(--themecolour); }
+
+h2 { border-bottom: var(--borderthickness) solid var(--themecolour); }
+
+.container {
+  color: #1e00ff;
+  background-color: #000000;
+  padding: 15px;
+}
+
+button {
+  background-color: #ffffff;
+  color: var(--themecolour);
+  border: 1px solid var(--themecolour);
+  padding: 5px;
 }
 
 
@@ -49,10 +95,10 @@
     text-align: center;
 }
 .card:hover .servicesIcon {
-    color: #ff0000;
+    color: var(--themecolour);
 }
 .servicesText:hover {
-    border: 1px solid #ff0000;
+    border: 1px solid var(--themecolour);
 }
 
 
