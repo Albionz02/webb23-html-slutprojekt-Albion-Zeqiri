@@ -1,0 +1,26 @@
+.div1{
+    display:flex;
+    justify-content: center;
+}
+.bmw1{
+    width: 100vh;
+}
+.div2{
+    margin: 20vh;
+    display: flex;
+    justify-content: space-around;
+
+}
+.div01{
+    display: flex;
+    justify-content: center;
+    margin:2vh;
+}
+
+.text{
+    margin: 20vh;
+    font-size: 25px;
+    font-weight: 600;
+    font-family: cursive;
+
+}
